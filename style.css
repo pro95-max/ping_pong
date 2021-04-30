@@ -1,0 +1,36 @@
+body{
+    background-size: cover;
+}
+#instructions{
+    float: right;
+    border: 1px solid black;
+
+}
+.heading{
+    width: 100%;
+    text-align: left;
+}
+#head{
+    display: inline;
+}
+
+#start,#status{
+font-size: 25px;
+}
+#footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: gray;
+    margin: 0px;
+}
+.modal-dialog{
+    width: 90%;
+}
+.modal-header h2{
+    margin: 0px;
+    background-color: light grey !important;
+}
+canvas{
+    border: 3px solid white;
+}
